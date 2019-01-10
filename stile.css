@@ -1,0 +1,155 @@
+body{
+    background-color: #fef9f3;
+    margin: 0;
+    padding: 0;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#ddd, #f1f1f1); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:linear-gradient(#b3b3b3, #cccccc);
+    border-radius: 10px;
+}
+
+
+#freccia{
+	width:60px;
+	height:60px;
+	position:fixed;
+	bottom:4%;
+	right:10px;
+}
+
+#freccia:hover {
+	opacity:0.8;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 65px;
+}
+
+p{
+	display: inline;
+}
+
+#titolo{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+#metadati_principali{
+    text-align: center;
+    line-height: 11px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding-top: 7px;
+    padding-bottom: 30px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+#metadati_principali:hover{
+    background-color: #ddd;
+}
+
+#titolo_metadati{
+    font-size: 23px;
+}
+
+#corretto{
+    color: green;
+}
+
+#sbagliato{
+    color: red;
+}
+
+.blocco{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FAEBD7;
+    display: flex;
+    padding: 7px;
+    margin: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.metadati{
+    display: none;
+}
+
+.cartolina_trascritta{
+    display: flex;
+    display: block;
+}
+
+.descrizione_immagine{
+    flex: 1;
+    margin-top: 20%;
+    margin-bottom: 43%;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 5%;
+}
+
+.contenuto{
+    flex: 1;
+    text-align: center;
+}
+
+.gruppo_immagini{
+    text-align: center;
+}
+
+#fronte{
+    width: 400px;
+    height: 640px;
+}
+
+#retro{
+    width: 640px;
+    height: 400px;
+    margin-right:6px
+}
+
+.scrittoamano{
+    display: flex;
+}
+
+.testo{
+    flex: 1;
+}
+
+.indirizzo{
+    flex:1;
+}
+
+.destination{
+    display: none;
+}
+
+footer {
+    text-align: center;
+    line-height: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+#corsivo{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 35px;
+}

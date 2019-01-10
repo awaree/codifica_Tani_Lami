@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "PostcardProject.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Gesù disseta gli assetati - Edizione digitale</title>
+            </titleStmt>
+ 
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">Ricambio di saluti</title>
+                    <author>Carla Brunoli</author>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1913/09/05</date>
+                </bibl>
+                <msDesc>
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <idno>7694_059_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro
+                                -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                              
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura </surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    
+                    <person xml:id="CB">
+                        <persName>
+                            <forename>Carla</forename>
+                            <surname>Brunoli</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note>Durante l'interpretazione della cartolina, abbiamo avuto dei dubbi circa l'esattezza del nome del mittente.</note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        <note>Città di destinazione.</note>
+                    </place>
+                    
+                    <place>
+                        <placeName ref="#MI">Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Milano</district>
+                        <district type="provincia">MI</district>
+                        <country key="N">IT</country>
+                        <note>Il nome della città è contenuto dentro al timbro.</note>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                    <org>
+                        <orgName type="N"></orgName>
+                        <desc><ref target="#N3">Comune di La Spezia</ref></desc>
+                    </org>
+                </listOrg> 
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#CB"/>
+                    <placeName ref="#MI"/>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1913-09-05">5 IX 1913</date>
+                    <date type="writing" when="1913-09-05">5-9-913</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName ref="#RV"/>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Gesù in groppa ad un asino disseta due assetati</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="gesu_assetati">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" facs="#fronte" xml:id="cartolina_fronte59">
+                <figure>
+                    <head><lb/><title xml:id="titolo_immagine59">"Gesù disseta gli assetati"</title> di <persName>Domenico Mastroianni</persName></head>
+                    
+                    <lb/><figDesc>L'immagine in bianco e nero rappresenta Gesù che in groppa ad un asino disseta due figure. 
+                        Reca in ciascuna mano un recipiente e attraverso quello nella mano destra disseta un fanciullo.
+                        Inginocchiato a terra c'è un uomo anziano e probabilmente zoppo, dato che sulle sue ginocchia possiede una stampella.
+                        La scena è ambientata su un terreno disconnesso e sullo sfondo si vedono delle mura in pietra, con un arco all'interno di esse.
+                        In alto a destra si nota un immagine scolorita, quasi impercettibile, di un cuore dal quale fuoriesce la luce con sopra una croce, 
+                        simbolo della cristianità. </figDesc>   
+                </figure>
+            </div>
+            
+            <div type="retro" facs="#retro" xml:id="cartolina_retro59">
+                <div type="message" xml:id="message59">
+                    
+                    <div xml:id="testo59">
+                        <lb/><p>
+                            <s><cl type="main sentence"><phr type="V" function="verb-main"><w>Contraccambio</w></phr></cl> <cl type="coordinated sentence"><w>e</w> 
+                                <lb/><phr type="PP" function="postmodifier"><w>cordialmente</w></phr> <phr type="V" function="verb"><w>saluto</w></phr></cl></s>
+                            <lb/><persName ref="#BC"><surname>Brunoli</surname> <forename>Carla</forename></persName>
+                            <lb/><lb/><date when="19130509"><num>5</num><pc>-</pc><num>9</num><pc>-</pc><num><choice><orig>913</orig><reg>1913</reg></choice></num></date>
+                        </p>
+                    </div>
+                    
+                    <div xml:id="indirizzo59">
+                        <lb/><cb/><p>
+                            <w><choice><abbr>Gentil</abbr> <expan>Gentile</expan></choice></w> <rs type="person">Signorina</rs> 
+                            <lb/><persName ref="#OT"><surname>Turtura</surname> <forename>Oliva</forename></persName>
+                            <lb/><placeName><rs type="place">Via</rs> <name><choice><sic>Gerolamo</sic><corr>Girolamo</corr></choice></name> <name>Rossi</name></placeName>
+                            <lb/><placeName ref="#RV"><hi rend="underline">Ravenna</hi></placeName>
+                        </p>
+                    </div>
+                    
+                </div>
+                
+                <div type="destination" xml:id="destination59">
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                            <mentioned>2 Milano 2 partenza</mentioned>
+                            <time from="13.00" to="14.00">13-14</time>
+                            <date when="1913-9-5">5.IX 1913</date>
+                        </stamp>
+                        <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    <p>
+                        <address>
+                            <addrLine>Gentil Signorina</addrLine>
+                            <addrLine><persName ref="#OT">Turtura Oliva</persName></addrLine>
+                            <addrLine>Via Gerolamo Rossi</addrLine>
+                            <addrLine> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                        </address>
+                    </p>
+                </div>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+    <facsimile xml:id="immagineAnnotata59">
+        <surface xml:id="fronte59" start="#cartolina_fronte59">
+            <graphic url='7694-059F.png' width='1024px' height='1654px' />
+        </surface>
+    </facsimile>
+    
+    <facsimile xml:id="testoAnnotato59"> 
+        <surface xml:id="retro59" start="#cartolina_retro59">
+            <graphic url='7694-059R.png' width='1652px' height='1060px' />
+            <zone ulx="1" uly="12" lrx="691" lry="1060" /> <!--testo retro-->
+            <zone ulx="843" uly="454" lrx="1613" lry="1044" />  <!--indirizzo-->
+            <zone ulx="703" uly="14" lrx="1651" lry="436" /> <!--timbro e francobollo-->
+        </surface>
+    </facsimile> 
+    
+</TEI>

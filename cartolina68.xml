@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "PostcardProject.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Donna affacciata ad un balcone e amorini in barca che suonano - Edizione digitale</title>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul retro riporta la stampa “Copyright by A. Noyer 1912 – Allegorie n 186”</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">Partenza del mittente</title>
+                    <author>Pia</author>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1912/09/21</date>
+                </bibl>
+                <msDesc>
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <idno>7694_068_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobolli - Regno d'Italia</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro
+                                -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>      
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+    
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura </surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    
+                    <person xml:id="P">
+                        <persName>
+                            <forename>Pia</forename>
+                        </persName>
+                        <sex>F</sex>
+                        <note>Non è presente il cognome del mittente</note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        <note>Città di destinazione. Il nome della città è contenuto anche all'interno di uno dei timbri.</note>
+                    </place>
+                    
+                    <place xml:id="VR">
+                        <placeName>Verona</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Verona</district>
+                        <district type="provincia">VR</district>
+                        <country key="N">IT</country>
+                        <note>Città dove presumibilmente è stata scritta la cartolina.</note>
+                    </place>
+                    
+                    <place xml:id="FE">
+                        <placeName>Ferrara</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ferrara</district>
+                        <district type="provincia">FE</district>
+                        <country key="N">IT</country>
+                        <note>Il nome della città è contenuto all'interno di uno dei timbri.</note>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                    <org>
+                        <orgName type="N"></orgName>
+                        <desc><ref target="#N3">Comune di La Spezia</ref></desc>
+                    </org>
+                </listOrg>       
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#P"/>
+                    <!-- città di invio da timbro (postage) o da manoscritto (writing) -->
+                    <placeName type="writing" ref="VR"/>
+                    <placeName type="postage" ref="FE"/>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1912-09-21">21-9-12</date>
+                    <date type="writing" when="1912-09-21">21-9-12</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName ref="#RV"/>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>L'aubade</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="donna_balcone">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" facs="#fronte" xml:id="cartolina_fronte68">
+                <figure>
+                    <head><lb/><title xml:id="titolo_immagine68">"Donna affacciata ad un balcone e amorini in barca che suonano"</title> di <persName>Domenico Mastroianni</persName></head>
+                    
+                    <lb/><figDesc>L'immagine in bianco e nero rappresenta una donna affacciata ad un balcone, intenta ad ascoltare
+                    tre amorini che suonano su una barca. La donna sembra lieta, con la mano destra tiene lo scialle che ha sulle spalle,
+                    mentre la sinistra è appoggiata al balcone. In basso, sul fiume sotto al balcone, i tre amorini recano in mano ognuno
+                    un diverso strumento: l'ultimo sta suonando un violoncello, quello centrale uno strumento a fiato, che sembra un oboe o 
+                    un clarinetto, mentre quello in cima tiene in mano i due remi per condurre la barca.
+                    Tutta la scena è inserita in un ambiente bucolico, le strutture architettoniche sono ricoperte di erbe rampicanti.
+                    </figDesc>   
+                </figure>
+            </div>
+            
+            <div type="retro" facs="#retro" xml:id="cartolina_retro68">
+                <div type="message" xml:id="message68">
+
+                    <div xml:id="testo68">
+                    <p>
+                        <placeName ref="#VR">Verona</placeName>
+                        <date when="19120921"><num>21</num><pc>-</pc><num>9</num><pc>-</pc><num><choice><orig>12</orig><reg>1912</reg></choice></num></date>
+                        
+                        <lb/><lb/><s><cl type="main sentence"><phr type="V" function="verb-main"><w>Partirò</w></phr> <phr type="PP" function="sentence_adverb"><w>lunedì</w></phr>
+                            <lb/><phr type="PP" function="postmodifier"><w>col</w> <w>treno</w></phr> <phr type="PP" function="sentence_adverb"><w>delle</w> <num>17</num> <w><hi rend="underline">circa</hi></w></phr></cl>                  
+                    
+                            <lb/><cl type="coordinated sentence"><phr type="V" function="verb"><w>Vogliami</w><w>bene</w></phr> <w>e</w>
+                    <lb/><phr type="PP" function="locution"><w>Arrivederci</w></phr> <w>tua</w>
+                    <lb/><forename>Pia</forename></cl></s>
+                    </p>
+                    </div>
+
+                    <div xml:id="indirizzo68">
+                    <lb/><cb/><p><rs type="person">Signorina</rs>
+                    <lb/><persName ref="#OT"><forename>Oliva</forename> <surname>Turtura</surname></persName>
+                    <lb/><placeName><name>Girolamo</name> <name>Rossi</name></placeName>
+                    <lb/><placeName ref="#RV">Ravenna</placeName></p>
+                    </div>
+                    
+                </div>
+                
+                <div type="destination" xml:id="destination68">
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                            <mentioned>. Ravenna . |arrivi e partenze|</mentioned>
+                            <date when="1912-9-21">21 9 - 12</date>
+                        </stamp>
+                        <stamp type="postmark">
+                            <mentioned>Ferrara</mentioned>
+                            <note>Il francobollo è illeggibile.</note>
+                        </stamp>
+                        <stamp type="postmark">
+                            <note>Il francobollo è illeggibile.</note>
+                        </stamp>
+                        <stamp type="postmark">
+                            <note>Il francobollo è illeggibile.</note>
+                        </stamp>
+                        <stamp type="postage">due francobolli da 5 centesimi del Regno d'Italia</stamp>
+                    </p>                 
+                    <p>
+                        <address>
+                            <addrLine>Signorina</addrLine>
+                            <addrLine><persName ref="#OT">Oliva Turtura</persName></addrLine>
+                            <addrLine>Girolamo Rossi</addrLine>
+                            <addrLine><placeName ref="#RV">Ravenna</placeName></addrLine>
+                        </address>
+                    </p>
+                </div>
+                
+            </div>
+            
+        </body>
+    </text>
+
+    <facsimile xml:id="immagineAnnotata68">
+        <surface xml:id="fronte68" start="#cartolina_fronte68">
+            <graphic url='7694-068F.png' width='1037.007812px' height='1634.007812px' />
+        </surface>
+    </facsimile>
+
+    <facsimile xml:id="testoAnnotato68">
+        <surface xml:id="retro68" start="#cartolina_retro68">
+            <graphic url='7694-068R.png' width='1641.007812px' height='1038.007812px' />
+            <zone ulx="0" uly="0" lrx="717" lry="1015"/> <!--testo retro-->
+            <zone ulx="715" uly="357" lrx="1633" lry="1035"/> <!--indirizzo-->
+            <zone ulx="563" uly="15" lrx="1633" lry="481"/> <!--timbro e francobollo-->  
+        </surface>
+    </facsimile>
+
+
+</TEI>

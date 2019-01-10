@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "PostcardProject.dtd">
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+        <teiHeader>
+            
+            <fileDesc>
+                <titleStmt>
+                    <title>Edizione digitale di un corpus di cartoline</title>
+                    <respStmt>
+                        <resp>Transcription by</resp>
+                        <name ref="GT">Giorgia Tani</name>
+                        <name ref="ML">Maria Vittoria Lami</name>
+                    </respStmt>
+                    <!-- <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="SP">Comune della Spezia</name>
+                    </respStmt> -->
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition>Studenti di Informatica Umanistica, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <!-- COMPILAZIONE -->
+                        <date>2018</date>
+                    </edition>
+                    
+                    <!-- NOME COMPILATORE -->
+                    <respStmt>
+                        <resp>Encoding by</resp>
+                        <name ref="XY2">Tommaso Castagneto</name>
+                    </respStmt>
+                    
+                    <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                    <respStmt>
+                        
+                        <resp>Compilatore</resp>
+                        <name ref="#XY2">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="GP">Giacomo Paolicchi</name>
+                        <name ref="ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <!-- COLLOCAZIONE SPECIFICA -->
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+
+            <!-- Cartolina 56-->
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="cartolina56.xml"/>
+            
+            
+            <!--Cartolina 59-->
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="cartolina59.xml"/>
+            
+            
+            <!-- Cartolina 68-->
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="cartolina68.xml"/>
+
+</teiCorpus>
